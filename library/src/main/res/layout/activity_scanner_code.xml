@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+
+    <com.dlazaro66.qrcodereaderview.QRCodeReaderView
+        android:id="@+id/qrdecoderview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/img_scanner_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/base_dimen_186"
+        android:background="@drawable/icon_lock_scanner"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/charmHome_lock_device_scanner_code_tx_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_scanner_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/base_dimen_140"
+        android:text="@string/charmHome_lock_device_scanner_code_tx_one"
+        android:textColor="@color/charm_home_title"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/charmHome_lock_device_scanner_code_tx_one"
+        android:layout_centerHorizontal="true"
+        android:text="@string/charmHome_lock_device_scanner_code_tx_two"
+        android:textColor="@color/charm_home_title"
+        android:visibility="gone" />
+
+    <www.jinke.com.charmhome.widget.ScanView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

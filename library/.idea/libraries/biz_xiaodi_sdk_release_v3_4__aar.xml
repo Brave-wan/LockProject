@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="biz_xiaodi_sdk-release-v3.4:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/biz_xiaodi_sdk-release-v3.4.aar/1bce3fb9cd21d2467f4adebebd208efe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/biz_xiaodi_sdk-release-v3.4.aar/1bce3fb9cd21d2467f4adebebd208efe/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

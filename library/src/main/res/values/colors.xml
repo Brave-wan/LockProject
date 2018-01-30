@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- QRCode scanner color begin -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#FF043D</color>
+    <color name="corner_color">#FF043D</color>
+
+    <color name="colorBlack50">#88000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="charm_home_title">#FF043D</color>
+    <color name="default_bg">#F5F5F5</color>
+    <color name="charm_home_title_blue">#ff2196f3</color>
+    <color name="charm_home_stroke_top">#2effffff</color>
+    <color name="charm_home_insideBlue">#58ade5</color>
+    <color name="charm_home_default_background">#aaffffff</color>
+    <color name="charm_home_white_20_transparent">#30ffffff</color>
+    <color name="charm_home_white_30_transparent">#40ffffff</color>
+    <color name="charm_home_white_40_transparent">#60ffffff</color>
+    <color name="charm_home_white_50_transparent">#80ffffff</color>
+    <color name="charm_home_white_60_transparent">#a0ffffff</color>
+    <color name="charm_home_white_75_transparent">#c0ffffff</color>
+    <color name="charm_home_white_80_transparent">#ccffffff</color>
+    <color name="charm_home_white_90_transparent">#e5ffffff</color>
+    <color name="charm_home_input_dialog_hint">#BFBFBF</color>
+    <color name="charm_home_input_dialog_line">#CFCFCF</color>
+    <color name="charm_home_them_red">#FF5F71</color>
+    <color name="charm_home_lock_scanning_txt">#414141</color>
+    <color name="charm_home_lock_gray_tx">#A1A1A1</color>
+    <color name="charm_home_lock_line_gray">#E1E1E1</color>
+    <color name="charm_home_lock_dialog_bluetooth_txt">#808080</color>
+    <color name="charm_home_lock_add_bottom_tx">#A2A2A2</color>
+    <color name="charm_home_lock_item_tx">#61605E</color>
+    <color name="charm_home_lock_device_pass_line">#E5E5E5</color>
+</resources>

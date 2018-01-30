@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="charmHome_home_manager">家庭管理</string>
+
+    <string name="charmHome_home_add_device_go">您还没有添加设备前往添加</string>
+    <string name="charmHome_experience_life">体验智慧生活 >></string>
+    <string name="charmHome_start_charm_life">开启智慧生活</string>
+    <string name="charmHome_virtual_family">虚拟家庭</string>
+    <string name="charmHome_dialog_input_title">欢迎进入,请添加一个"家"</string>
+    <string name="charmHome_dialog_input_hint">赶紧给家起个名字吧...</string>
+    <string name="charmHome_dialog_input_sure">确定</string>
+    <string name="charmHome_dialog_input_cancel">取消</string>
+    <string name="charmHome_title">我的魅力家</string>
+    <string name="charmHome_add_device">添加设备</string>
+    <string name="charmHome_lock_entrance">智能门锁</string>
+    <string name="charmHome_lock_scanning_code">打开门锁后盖，扫描盖内二维码</string>
+    <string name="charmHome_lock_code_btn">扫描二维码</string>
+    <string name="charmHome_lock_dialog_one">长按蓝牙设置按钮直至前面灯亮</string>
+    <string name="charmHome_lock_dialog_two">将手指置入指纹录入框</string>
+    <string name="charmHome_lock_dialog_bluetooth_one">长按蓝牙设置按钮,</string>
+    <string name="charmHome_lock_dialog_bluetooth_two">保持锁具前灯亮</string>
+    <string name="charmHome_lock_dialog_i_know">我知道了</string>
+    <string name="charmHome_lock_add_finish">恭喜,您已成功添加设备</string>
+    <string name="charmHome_lock_add_fail">添加子设备失败</string>
+    <string name="charmHome_lock_add_finish_btn">完成</string>
+    <string name="charmHome_lock_add_finish_title">添加完成</string>
+    <string name="charm_home_lock_add_bottom_tx">使用设备需要链接wifi,关闭wif设备将无法连接</string>
+    <string name="charm_home_lock_note">注意事项:</string>
+    <string name="charmHome_lock_add_fail_btn">重试</string>
+    <string name="charmHome_lock_device_name">设备名</string>
+    <string name="charmHome_lock_device_version">设备软件版本</string>
+    <string name="charmHome_lock_device_title">设备信息</string>
+    <string name="charmHome_lock_device_finger">已用指纹个数</string>
+    <string name="charmHome_lock_device_remaining_finger">剩余指纹可用个数</string>
+    <string name="charmHome_lock_device_rlectricity">当前剩余电量</string>
+    <string name="charmHome_lock_device_firmware">固件版本升级</string>
+    <string name="charmHome_lock_device_delete">删除设备</string>
+    <string name="charmHome_lock_device_basic_info">基本信息</string>
+    <string name="charmHome_lock_device_details">查看设备详情</string>
+    <string name="charmHome_lock_device_advanced">高级设置</string>
+    <string name="charmHome_lock_device_pass_setting">设置硬件上的开锁密码</string>
+    <string name="charmHome_lock_device_pass_title">修改设备密码</string>
+    <string name="charmHome_lock_device_finger_title">设备指纹管理</string>
+    <string name="charmHome_lock_device_finger_all_manager">管理设备下的所有指纹</string>
+    <string name="charmHome_lock_device_door_title">开门授权</string>
+    <string name="charmHome_lock_device_unlock_manager">生成临时开锁密码</string>
+    <string name="charmHome_lock_device_police_title">报警设置</string>
+    <string name="charmHome_lock_device_police_manager">报警密码,指纹设置</string>
+    <string name="charmHome_lock_device_wifi_title">WIFI设置</string>
+    <string name="charmHome_lock_device_wifi_manager">设置设备wifi,给设备连网</string>
+    <string name="charmHome_lock_device_recording_title">开门记录</string>
+    <string name="charmHome_lock_device_recording_manager">记录门锁打开时间</string>
+    <string name="charmHome_lock_device_smart_lock_title">智能门锁设置</string>
+
+    <string name="charmHome_lock_device_place_finger">放置手指</string>
+    <string name="charmHome_lock_device_input_finger_title">录制指纹</string>
+    <string name="charmHome_lock_device_input_finger_toast_one">请将手指放在设备指纹识别处再移开</string>
+    <string name="charmHome_lock_device_input_finger_toast_two">重复放置手指至图标红色充满</string>
+    <string name="charmHome_lock_device_input_finger_btn">开始录制</string>
+    <string name="charmHome_lock_item_unlock">开门</string>
+    <string name="charmHome_lock_add_device_name">设备名称</string>
+    <string name="charmHome_lock_add_device_ed_hint">请输入设备名称</string>
+    <string name="charmHome_lock_add_device_sure_btn">确认添加</string>
+    <string name="charmHome_lock_add_device_title">输入设备名称</string>
+    <string name="charmHome_lock_device_attributes_finish">完成</string>
+    <string name="charmHome_lock_device_finger_number">已有开锁指纹</string>
+    <string name="charmHome_locke_finger_manager">设备指纹管理</string>
+
+
+    <string name="charmHome_lock_toast_input_device_name">请输入设备名称!</string>
+    <string name="charmHome_lock_toast_dialog_logout_title">提示</string>
+    <string name="charmHome_lock_toast_dialog_logout_content">是否在此帐号下注销此设备</string>
+    <string name="charmHome_lock_device_pass_input_toast">输入六位设备密码</string>
+    <string name="charmHome_lock_device_pass_clear_btn">清空设备锁密码</string>
+    <string name="charmHome_lock_device_delete_finger">删除指纹</string>
+    <string name="charmHome_lock_device_delete_finger_title">编辑指纹</string>
+    <string name="charmHome_lock_device_edit_finger_ed">请输入指纹名称</string>
+    <string name="charmHome_lock_device_input_finger_finish">指纹录制完毕,可以用该指纹解锁</string>
+    <string name="charmHome_lock_device_edit_finger_toast">是否删除该指纹</string>
+    <string name="charmHome_lock_device_scanner_code_tx_one">请将设备上的二维码</string>
+    <string name="charmHome_lock_device_scanner_code_tx_two">置于扫描框中以添加设备</string>
+    <string name="charmHome_lock_device_input_login_password">输入登陆密码</string>
+    <string name="charmHome_lock_device_input_login_tx_one">您已注册小滴管家,</string>
+    <string name="charmHome_lock_device_input_login_tx_two">请输入登陆密码用户安全验证</string>
+    <string name="charmHome_lock_device_input_login_ed_hint">请输入小滴登陆密码</string>
+    <string name="charmHome_lock_device_input_login_bottom">如果忘记密码请到小滴管家APP修改登陆密码</string>
+    <string name="charmHome_lock_device_list_empty_view_text">您还没有添加指纹哟~</string>
+
+    <string name="charmHome_lock_device_pass_sex">请输入六位数的设备密码</string>
+    <string name="charmHome_lock_device_pass_simple">密码过于简单,请重新输入!</string>
+    <string name="charmHome_lock_device_more">更多智能设备，即将接入~</string>
+
+
+</resources>

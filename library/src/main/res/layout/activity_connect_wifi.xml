@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/image_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/base_dimen_40"
+        android:src="@drawable/icon_tjwg_2" />
+
+    <TextView
+        android:id="@+id/tx_wifi_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_dimen_80"
+        android:layout_below="@+id/image_wifi"
+        android:layout_marginLeft="@dimen/base_dimen_20"
+        android:layout_marginRight="@dimen/base_dimen_20"
+        android:layout_marginTop="@dimen/base_dimen_40"
+        android:drawableLeft="@drawable/icon_tjwg_3"
+        android:gravity="center_vertical"
+        android:text="connect wifi name" />
+
+    <EditText
+        android:id="@+id/ed_wifi_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_dimen_80"
+        android:layout_below="@+id/tx_wifi_name"
+        android:layout_marginLeft="@dimen/base_dimen_20"
+        android:layout_marginRight="@dimen/base_dimen_20"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:text="jkwy8888"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_device_netWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/base_dimen_20"
+        android:layout_marginLeft="@dimen/base_dimen_20"
+        android:layout_marginRight="@dimen/base_dimen_20"
+        android:background="#ff2196f3"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

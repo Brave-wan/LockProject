@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Dialog">
+        <attr name="DialogTitleAppearance" format="reference" />
+        <attr name="DialogTitleText" format="reference|string" />
+        <attr name="DialogSpotColor" format="reference|color" />
+        <attr name="DialogSpotCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="WaitingDots">
+        <attr name="dotsColor" format="color" />
+        <attr name="period" format="integer" />
+        <attr name="jumpHeight" format="integer" />
+        <attr name="autoplay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DiffuseView">
+        <attr name="diffuse_color" format="reference|color" />
+        <attr name="diffuse_coreColor" format="reference|color" />
+        <attr name="diffuse_coreImage" format="reference" />
+        <attr name="diffuse_coreRadius" format="integer" />
+        <attr name="diffuse_width" format="integer" />
+        <attr name="diffuse_maxWidth" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordInputEdt">
+
+        <attr name="isPwd" format="boolean" />
+        <attr name="autoCloseKeyBoard" format="boolean" />
+        <attr name="isNumber" format="boolean" />
+        <attr name="widthSpace" format="dimension" />
+        <attr name="heightSpace" format="dimension" />
+        <attr name="rectStroke" format="dimension" />
+        <attr name="txtSize" format="dimension" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="bgFill" format="boolean" />
+        <attr name="numLength" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="rectNormalColor" format="color" />
+        <attr name="rectChooseColor" format="color" />
+        <attr name="pwdType" format="enum">
+            <enum name="CIRCLE" value="0" />
+            <enum name="XINGHAO" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="PayPsdInputView">
+
+        <attr name="maxCount" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="bottomLineColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="divideLineWidth" format="dimension" />
+        <attr name="divideLineColor" format="color" />
+        <attr name="rectAngle" format="dimension" />
+        <attr name="focusedColor" format="color" />
+        <attr name="psdType" format="enum">
+            <enum name="weChat" value="0" />
+            <enum name="bottomLine" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="QRCodeView">
+        <!-- 扫描框距离toolbar底部的距离，默认值为90dp -->
+        <attr name="qrcv_topOffset" format="dimension|reference" />
+        <!-- 扫描框边角线的宽度，默认值为3dp -->
+        <attr name="qrcv_cornerSize" format="dimension|reference" />
+        <!-- 扫描框边角线的长度，默认值为20dp -->
+        <attr name="qrcv_cornerLength" format="dimension|reference" />
+        <!-- 扫描框边角线的颜色，默认值为@android:color/white -->
+        <attr name="qrcv_cornerColor" format="color|reference" />
+        <!-- 扫描框的宽度，默认值为200dp -->
+        <attr name="qrcv_rectWidth" format="dimension|reference" />
+        <!-- 除去扫描框，其余部分阴影颜色，默认值为#33FFFFFF -->
+        <attr name="qrcv_maskColor" format="color|reference" />
+        <!-- 扫描线的宽度，默认值为1dp -->
+        <attr name="qrcv_scanLineSize" format="dimension|reference" />
+        <!-- 扫描线的颜色，默认值为@android:color/white -->
+        <attr name="qrcv_scanLineColor" format="color|reference" />
+        <!-- 扫描线距离上下或者左右边框的间距，默认值为0dp -->
+        <attr name="qrcv_scanLineMargin" format="dimension|reference" />
+        <!-- 是否显示默认的图片扫描线，默认值为false -->
+        <attr name="qrcv_isShowDefaultScanLineDrawable" format="boolean" />
+        <!-- 扫描线的图片资源，默认值为null -->
+        <attr name="qrcv_customScanLineDrawable" format="reference" />
+        <!-- 扫描边框的宽度，默认值为1dp -->
+        <attr name="qrcv_borderSize" format="dimension|reference" />
+        <!-- 扫描边框的颜色，默认值为@android:color/white -->
+        <attr name="qrcv_borderColor" format="color|reference" />
+        <!-- 扫描线从顶部移动到底部的动画时间，默认值为1000 -->
+        <attr name="qrcv_animTime" format="integer" />
+        <!-- 扫描框是否垂直居中，该属性为true时会忽略qrcv_topOffset属性，默认值为false -->
+        <attr name="qrcv_isCenterVertical" format="boolean" />
+        <!-- Toolbar的高度，当有设置qrcv_isCenterVertical属性时，通过该属性来修正有Toolbar时导致扫描框垂直居中的偏差，默认值为0dp -->
+        <attr name="qrcv_toolbarHeight" format="dimension|reference" />
+        <attr name="qrcv_isScanLineReverse" format="boolean" />
+        <!-- 扫描线的网格图片资源，默认值为null -->
+        <attr name="qrcv_customGridScanLineDrawable" format="reference" />
+    </declare-styleable>
+</resources>

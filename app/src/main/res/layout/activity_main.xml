@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed_login_user"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="请输入登陆帐号"
+        android:maxLines="1"
+        android:text="18623558334"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ed_login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="请输入用户密码"
+        android:maxLines="1"
+        android:text="lx654321"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ed_login_house_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="房屋名字如果有多个则以｜线分隔"
+        android:maxLines="1"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ed_login_house_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="房屋id如果有多个则以｜线分隔"
+        android:maxLines="1"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/tx_hello_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="点击进入魅力家app" />
+
+</LinearLayout>

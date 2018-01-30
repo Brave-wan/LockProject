@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dots="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#a6000000"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/base_dimen_44"
+    android:paddingLeft="@dimen/base_dimen_80"
+    android:paddingRight="@dimen/base_dimen_80"
+    android:paddingTop="@dimen/base_dimen_46">
+
+    <ImageView
+        android:id="@+id/image_xiaobai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loading_anim" />
+
+    <TextView
+        android:id="@+id/tx_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_xiaobai"
+        android:layout_marginLeft="@dimen/base_dimen_30"
+        android:layout_toRightOf="@+id/image_xiaobai"
+        android:text="努力加载中"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <www.jinke.com.charmhome.widget.DotsTextView
+        android:id="@+id/dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tx_loading"
+        android:layout_toRightOf="@+id/tx_loading"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        dots:autoplay="false"
+        dots:period="10" />
+
+
+</RelativeLayout>

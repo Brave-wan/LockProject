@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tx_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/base_dimen_100"
+        android:layout_marginRight="@dimen/base_dimen_100"
+        android:background="@drawable/shape_lock_bluetooth_dialog_bg"
+        android:paddingBottom="@dimen/base_dimen_30"
+        android:paddingLeft="@dimen/base_dimen_50"
+        android:paddingRight="@dimen/base_dimen_50"
+        android:paddingTop="@dimen/base_dimen_30"
+        android:textColor="@color/charm_home_lock_scanning_txt" />
+
+</LinearLayout>

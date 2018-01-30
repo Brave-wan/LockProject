@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_add_lock_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_lock_left"
+            android:drawablePadding="@dimen/base_dimen_36"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingLeft="@dimen/base_dimen_60"
+            android:paddingTop="@dimen/base_dimen_30"
+            android:text="@string/charmHome_lock_entrance" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base_dimen_52"
+            android:src="@drawable/icon_lock_arrow_back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/charmHome_lock_device_more"
+            android:textColor="@color/charm_home_lock_gray_tx" />
+    </RelativeLayout>
+
+
+</LinearLayout>

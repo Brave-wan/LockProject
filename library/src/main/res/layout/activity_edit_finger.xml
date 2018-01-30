@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/tx_item_finger_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:hint="@string/charmHome_lock_device_edit_finger_ed"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/base_dimen_30"
+        android:paddingLeft="@dimen/base_dimen_52"
+        android:paddingTop="@dimen/base_dimen_30"
+        android:textColor="@color/charm_home_lock_scanning_txt"
+        android:textColorHint="@color/charm_home_lock_gray_tx"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tx_item_lock_finger_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/base_dimen_30"
+        android:paddingTop="@dimen/base_dimen_30"
+        android:text="@string/charmHome_lock_device_delete_finger"
+        android:textColor="@color/charm_home_title" />
+
+
+</LinearLayout>

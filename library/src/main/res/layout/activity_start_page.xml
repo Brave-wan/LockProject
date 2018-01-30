@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_charm_phone_start_page"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_experience_life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/base_dimen_160"
+        android:src="@drawable/icon_charm_home_experience_life"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/img_start_charm_life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/img_experience_life"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/base_dimen_80"
+        android:src="@drawable/icon_charm_start_loading_un_click"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/base_dimen_100"
+        android:text="正在初始化,请等待..."
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_charm_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/base_dimen_160"
+        android:background="@drawable/charm_home_loading_init" />
+
+
+</RelativeLayout>

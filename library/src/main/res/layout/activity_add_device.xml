@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/base_dimen_30"
+        android:paddingLeft="@dimen/base_dimen_30"
+        android:paddingRight="@dimen/base_dimen_30"
+        android:paddingTop="@dimen/base_dimen_30">
+
+        <TextView
+            android:id="@+id/tx_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="设备名："
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/ed_device_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tx_device_name"
+            android:background="@null"
+            android:hint="给设备起个名字吧"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginLeft="@dimen/base_dimen_30"
+            android:background="@color/charm_home_lock_line_gray" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/base_dimen_30">
+
+        <TextView
+            android:id="@+id/tx_belong_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="所属房间"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tx_belong_room_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tx_belong_room"
+            android:drawableRight="@drawable/icon_kt_pp_6"
+            android:gravity="center|left"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginLeft="@dimen/base_dimen_30"
+            android:background="@color/charm_home_lock_gray_tx" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/base_dimen_30">
+
+        <TextView
+            android:id="@+id/tx_device_type_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="设备类型"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tx_device_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center|left"
+            android:text="***"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:psd="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/base_dimen_44"
+            android:gravity="center"
+            android:text="@string/charmHome_lock_device_pass_input_toast"
+            android:textColor="@color/charm_home_lock_scanning_txt" />
+
+        <www.jinke.com.charmhome.widget.PayPsdInputView
+            android:id="@+id/ed_unlock_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/base_dimen_54"
+            android:layout_marginRight="@dimen/base_dimen_54"
+            android:layout_marginTop="@dimen/base_dimen_44"
+            android:inputType="number"
+            psd:divideLineColor="@color/charm_home_lock_device_pass_line"
+            psd:focusedColor="@color/charm_home_title"
+            psd:maxCount="6"
+            psd:psdType="weChat" />
+
+        <Button
+            android:id="@+id/btn_lock_pass_sure"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_88"
+            android:layout_marginLeft="@dimen/base_dimen_86"
+            android:layout_marginRight="@dimen/base_dimen_86"
+            android:layout_marginTop="@dimen/base_dimen_72"
+            android:background="@drawable/shape_lock_device_pass_btn_finsh"
+            android:gravity="center"
+            android:text="@string/charmHome_lock_add_finish_btn"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_lock_pass_clear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_88"
+            android:layout_marginBottom="@dimen/base_dimen_72"
+            android:layout_marginLeft="@dimen/base_dimen_86"
+            android:layout_marginRight="@dimen/base_dimen_86"
+            android:layout_marginTop="@dimen/base_dimen_24"
+            android:background="@drawable/shape_lock_scanning_code_btn"
+            android:gravity="center"
+            android:text="@string/charmHome_lock_device_pass_clear_btn"
+            android:textColor="@color/charm_home_title" />
+    </LinearLayout>
+
+
+</LinearLayout>

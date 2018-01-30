@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_dimen_100"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/base_dimen_50">
+
+        <TextView
+            android:id="@+id/lock_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/charmHome_lock_add_device_name"
+            android:textColor="@color/charm_home_lock_scanning_txt" />
+
+        <EditText
+            android:id="@+id/ed_input_device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lock_device_name"
+            android:layout_toRightOf="@+id/lock_device_name"
+            android:background="@color/white"
+            android:gravity="right|center"
+            android:hint="@string/charmHome_lock_add_device_ed_hint"
+            android:paddingRight="@dimen/base_dimen_42"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tx_lock_device_add_sure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_dimen_100"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/charmHome_lock_add_device_sure_btn"
+        android:textColor="@color/charm_home_title" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tx_finger_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base_dimen_50"
+            android:background="@color/white"
+            android:text="指纹名称"
+            android:textColor="@color/charm_home_lock_scanning_txt" />
+
+        <EditText
+            android:id="@+id/tx_item_finger_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/base_dimen_20"
+            android:layout_toRightOf="@+id/tx_finger_name"
+            android:background="@color/white"
+            android:gravity="right|center"
+            android:hint="@string/charmHome_lock_device_edit_finger_ed"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingLeft="@dimen/base_dimen_52"
+            android:paddingRight="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30"
+            android:textColor="@color/charm_home_lock_scanning_txt"
+            android:textColorHint="@color/charm_home_lock_gray_tx"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tx_item_lock_finger_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/base_dimen_30"
+        android:paddingTop="@dimen/base_dimen_30"
+        android:text="@string/charmHome_lock_device_delete_finger"
+        android:textColor="@color/charm_home_title"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_finger_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/base_dimen_20"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_finger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/base_dimen_164"
+            android:background="@drawable/icon_lock_fingerprint_four" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_finger"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/base_dimen_110"
+            android:text="指纹录取完毕,可以用指纹解锁"
+            android:textColor="@color/charm_home_lock_scanning_txt" />
+
+    </RelativeLayout>
+
+</LinearLayout>

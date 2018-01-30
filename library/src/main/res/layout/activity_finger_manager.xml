@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tx_lock_finger_list_any"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/base_dimen_10"
+        android:paddingLeft="@dimen/base_dimen_50"
+        android:paddingTop="@dimen/base_dimen_20"
+        android:text="@string/charmHome_lock_device_finger_number"
+        android:visibility="gone"
+        android:background="@color/default_bg"
+        android:textColor="@color/charm_home_lock_gray_tx" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_finger_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:divider="@null" />
+
+        <include
+            android:id="@+id/lv_empty_view"
+            layout="@layout/empty_list_layout" />
+    </LinearLayout>
+
+
+</LinearLayout>

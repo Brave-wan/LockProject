@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_charm_home_item_bg"
+        android:paddingBottom="@dimen/base_dimen_46"
+        android:paddingRight="@dimen/base_dimen_30">
+
+        <ImageView
+            android:id="@+id/img_right_dian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/base_dimen_10"
+            android:background="@drawable/icon_charm_home_rigth_dian" />
+
+        <ImageView
+            android:id="@+id/img_charm_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_right_dian"
+            android:layout_marginLeft="@dimen/base_dimen_32"
+            android:background="@drawable/icon_charm_lock" />
+
+        <TextView
+            android:id="@+id/tx_lock_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img_charm_lock"
+            android:layout_below="@+id/img_charm_lock"
+            android:layout_marginTop="@dimen/base_dimen_30"
+            android:text="智能门锁"
+            android:textColor="@color/charm_home_lock_item_tx" />
+
+        <TextView
+            android:id="@+id/tx_lock_item_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx_lock_item_name"
+            android:layout_below="@+id/tx_lock_item_name"
+            android:layout_marginTop="@dimen/base_dimen_12"
+            android:text="@string/charmHome_lock_item_unlock"
+            android:textColor="#8B8B8B"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

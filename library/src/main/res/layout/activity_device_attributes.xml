@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/default_bg"
+            android:paddingBottom="@dimen/base_dimen_10"
+            android:paddingLeft="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_20"
+            android:text="@string/charmHome_lock_device_basic_info"
+            android:textColor="@color/charm_home_lock_gray_tx" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_36"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_40">
+
+            <TextView
+                android:id="@+id/tx_lock_attributes_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:drawableLeft="@drawable/icon_device_attrib"
+                android:drawablePadding="@dimen/base_dimen_40"
+                android:gravity="center_vertical"
+                android:text="@string/charmHome_lock_device_name" />
+
+            <EditText
+                android:id="@+id/ed_lock_device_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tx_lock_attributes_name"
+                android:background="@color/white"
+                android:gravity="center|right"
+                android:hint="@string/charmHome_lock_toast_input_device_name"
+                android:paddingEnd="@dimen/base_dimen_46"
+                android:paddingLeft="@dimen/base_dimen_40"
+                android:singleLine="true"
+                android:src="@drawable/icon_lock_arrow_back"
+                android:textColor="@color/charm_home_lock_gray_tx"
+                android:textColorHint="@color/charm_home_lock_gray_tx"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginLeft="@dimen/base_dimen_50"
+            android:layout_marginRight="@dimen/base_dimen_46"
+            android:background="@color/charm_home_lock_line_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_lock_device_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_36"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30">
+
+
+            <TextView
+                android:id="@+id/lock_device_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_device_attrib"
+                android:layout_marginLeft="@dimen/base_dimen_35"
+                android:layout_toRightOf="@+id/img_device_attrib"
+                android:text="@string/charmHome_lock_device_title" />
+
+            <ImageView
+                android:id="@+id/img_device_attrib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/base_dimen_10"
+                android:background="@drawable/icon_device_details" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lock_device_nick"
+                android:layout_below="@+id/lock_device_nick"
+                android:text="@string/charmHome_lock_device_details"
+                android:textColor="@color/charm_home_lock_gray_tx" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_dimen_46"
+                android:src="@drawable/icon_lock_arrow_back" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/default_bg"
+            android:paddingBottom="@dimen/base_dimen_10"
+            android:paddingLeft="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_20"
+            android:text="@string/charmHome_lock_device_advanced"
+            android:textColor="@color/charm_home_lock_gray_tx" />
+
+        <RelativeLayout
+            android:id="@+id/rl_lock_device_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30">
+
+
+            <TextView
+                android:id="@+id/lock_device_pass_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_device_pass"
+                android:layout_marginLeft="@dimen/base_dimen_35"
+                android:layout_toRightOf="@+id/img_device_pass"
+                android:text="@string/charmHome_lock_device_pass_title" />
+
+            <ImageView
+                android:id="@+id/img_device_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/base_dimen_10"
+                android:background="@drawable/icon_lock_device_pass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lock_device_pass_title"
+                android:layout_below="@+id/lock_device_pass_title"
+                android:text="@string/charmHome_lock_device_pass_setting"
+                android:textColor="@color/charm_home_lock_gray_tx" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_dimen_46"
+                android:src="@drawable/icon_lock_arrow_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginLeft="@dimen/base_dimen_50"
+            android:layout_marginRight="@dimen/base_dimen_46"
+            android:background="@color/charm_home_lock_line_gray" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_lock_finger_manger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30">
+
+
+            <TextView
+                android:id="@+id/lock_device_finger_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_device_finger_manager"
+                android:layout_marginLeft="@dimen/base_dimen_35"
+                android:layout_toRightOf="@+id/img_device_finger_manager"
+                android:text="@string/charmHome_lock_device_finger_title" />
+
+            <ImageView
+                android:id="@+id/img_device_finger_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/base_dimen_10"
+                android:background="@drawable/icon_device_finger_manager" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lock_device_finger_title"
+                android:layout_below="@+id/lock_device_finger_title"
+                android:text="@string/charmHome_lock_device_finger_all_manager"
+                android:textColor="@color/charm_home_lock_gray_tx" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_dimen_46"
+                android:src="@drawable/icon_lock_arrow_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginLeft="@dimen/base_dimen_50"
+            android:layout_marginRight="@dimen/base_dimen_46"
+            android:background="@color/charm_home_lock_line_gray" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/lock_device_unlock_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_device_lock_manager"
+                android:layout_marginLeft="@dimen/base_dimen_30"
+                android:layout_toRightOf="@+id/img_device_lock_manager"
+                android:text="@string/charmHome_lock_device_door_title" />
+
+            <ImageView
+                android:id="@+id/img_device_lock_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/base_dimen_10"
+                android:background="@drawable/icon_lock_left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lock_device_unlock_title"
+                android:layout_below="@+id/lock_device_unlock_title"
+                android:text="@string/charmHome_lock_device_unlock_manager"
+                android:textColor="@color/charm_home_lock_gray_tx" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_dimen_46"
+                android:src="@drawable/icon_lock_arrow_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginLeft="@dimen/base_dimen_50"
+            android:layout_marginRight="@dimen/base_dimen_46"
+            android:background="@color/charm_home_lock_line_gray"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/lock_device_police_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_device_police_manager"
+                android:layout_marginLeft="@dimen/base_dimen_30"
+                android:layout_toRightOf="@+id/img_device_police_manager"
+                android:text="@string/charmHome_lock_device_police_title" />
+
+            <ImageView
+                android:id="@+id/img_device_police_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/base_dimen_10"
+                android:background="@drawable/icon_lock_device_police" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lock_device_police_title"
+                android:layout_below="@+id/lock_device_police_title"
+                android:text="@string/charmHome_lock_device_police_manager"
+                android:textColor="@color/charm_home_lock_gray_tx" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_dimen_46"
+                android:src="@drawable/icon_lock_arrow_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginEnd="@dimen/base_dimen_46"
+            android:layout_marginLeft="@dimen/base_dimen_50"
+            android:background="@color/charm_home_lock_line_gray"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/lock_device_wifi_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_device_wifi_manager"
+                android:layout_marginLeft="@dimen/base_dimen_30"
+                android:layout_toRightOf="@+id/img_device_wifi_manager"
+                android:text="@string/charmHome_lock_device_wifi_title" />
+
+            <ImageView
+                android:id="@+id/img_device_wifi_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/base_dimen_10"
+                android:background="@drawable/icon_lock_device_wifi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lock_device_wifi_title"
+                android:layout_below="@+id/lock_device_wifi_title"
+                android:text="@string/charmHome_lock_device_wifi_manager"
+                android:textColor="@color/charm_home_lock_gray_tx" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_dimen_46"
+                android:src="@drawable/icon_lock_arrow_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_2"
+            android:layout_marginLeft="@dimen/base_dimen_50"
+            android:layout_marginRight="@dimen/base_dimen_46"
+            android:background="@color/charm_home_lock_line_gray"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/base_dimen_30"
+            android:paddingStart="@dimen/base_dimen_50"
+            android:paddingTop="@dimen/base_dimen_30"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/lock_device_recording_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img_device_recording_manager"
+                android:layout_marginLeft="@dimen/base_dimen_30"
+                android:layout_toRightOf="@+id/img_device_recording_manager"
+                android:text="@string/charmHome_lock_device_recording_title" />
+
+            <ImageView
+                android:id="@+id/img_device_recording_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/base_dimen_10"
+                android:background="@drawable/icon_lock_device_recording" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lock_device_recording_title"
+                android:layout_below="@+id/lock_device_recording_title"
+                android:text="@string/charmHome_lock_device_recording_manager"
+                android:textColor="@color/charm_home_lock_gray_tx" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_dimen_46"
+                android:src="@drawable/icon_lock_arrow_back" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
